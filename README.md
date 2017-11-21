@@ -44,3 +44,13 @@ or via `package.json`:
     "sasslintConfig": "node_modules/apc-style/.sass-lint.yml"
 }
 ```
+
+## Pug-lint
+
+Include pug-lint rules by adding the following to your `.pug-lintrc` file:
+
+```json
+{
+    "extends": "./node_modules/apc-style/.pug-lintrc"
+}
+```

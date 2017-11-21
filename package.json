@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "eslint-config-apc": "^0.1.0",
+    "pug-lint": "^2.5.0",
     "sass-lint": "^1.12.1"
   }
 }
