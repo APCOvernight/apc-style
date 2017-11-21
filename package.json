@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/APCOvernight/apc-style/issues"
   },
-  "homepage": "https://github.com/APCOvernight/apc-style#readme"
+  "homepage": "https://github.com/APCOvernight/apc-style#readme",
+  "engines": {
+    "yarn": ">=0.19.1"
+  },
+  "dependencies": {
+    "eslint-config-apc": "^0.1.0"
+  }
 }
