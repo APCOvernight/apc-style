@@ -29,6 +29,7 @@
     "yarn": ">=0.19.1"
   },
   "dependencies": {
-    "eslint-config-apc": "^0.1.0"
+    "eslint-config-apc": "^0.1.0",
+    "sass-lint": "^1.12.1"
   }
 }

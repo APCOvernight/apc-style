@@ -27,3 +27,20 @@ Add this to your .eslintrc file:
 Note: We omitted the eslint-config- prefix since it is automatically assumed by ESLint.
 
 You can override settings from the shareable config by adding them directly into your .eslintrc file.
+
+## Sass-Lint
+
+Include sass-lint by either adding a config file rule to your `.sass-lint.yml` file
+
+```yml
+options:
+  config-file: node_modules/apc-style/.sass-lint.yml
+```
+
+or via `package.json`:
+
+```json
+{
+    "sasslintConfig": "node_modules/apc-style/.sass-lint.yml"
+}
+```
