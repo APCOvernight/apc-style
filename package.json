@@ -1,6 +1,6 @@
 {
   "name": "apc-style",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Code Style rules for APC projects",
   "main": "index.js",
   "scripts": {
