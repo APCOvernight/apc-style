@@ -1,4 +1,5 @@
 # APC Code Style
+[![Build Status](https://travis-ci.org/APCOvernight/apc-style.svg?branch=master)](https://travis-ci.org/APCOvernight/apc-style)
 
 Code style rules and dependencies for APC js/scss/pug projects
 
@@ -43,7 +44,7 @@ or via `package.json`:
 
 ```json
 {
-    "sasslintConfig": "node_modules/apc-style/.sass-lint.yml"
+  "sasslintConfig": "node_modules/apc-style/.sass-lint.yml"
 }
 ```
 
@@ -53,6 +54,6 @@ Include pug-lint rules by adding the following to your `.pug-lintrc` file:
 
 ```json
 {
-    "extends": "./node_modules/apc-style/.pug-lintrc"
+  "extends": "./node_modules/apc-style/.pug-lintrc"
 }
 ```
