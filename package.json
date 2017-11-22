@@ -1,6 +1,6 @@
 {
   "name": "apc-style",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Code Style rules for APC projects",
   "main": "index.js",
   "scripts": {
@@ -26,11 +26,11 @@
   },
   "homepage": "https://github.com/APCOvernight/apc-style#readme",
   "engines": {
-    "yarn": ">=0.19.1"
+    "yarn": "^1.0.0"
   },
   "dependencies": {
-    "eslint-config-apc": "^0.1.0",
-    "pug-lint": "^2.5.0",
-    "sass-lint": "^1.12.1"
+    "eslint-config-apc": "0.1.0",
+    "pug-lint": "2.5.0",
+    "sass-lint": "1.12.1"
   }
 }

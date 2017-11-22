@@ -1,6 +1,6 @@
 # APC Code Style
 
-Rules used for the APC-style package. Don't install this directly, it is included as part of apc-style.
+Code style rules and dependencies for APC js/scss/pug projects
 
 ```
 yarn add -D apc-style
@@ -14,7 +14,9 @@ Copy the .editorconfig file from this project to your project root
 cp node_modules/apc-style/.editorconfig .editorconfig
 ```
 
-## ES lint
+## Lint rules
+
+### ES lint
 
 Add this to your .eslintrc file:
 
@@ -28,7 +30,7 @@ Note: We omitted the eslint-config- prefix since it is automatically assumed by 
 
 You can override settings from the shareable config by adding them directly into your .eslintrc file.
 
-## Sass-Lint
+### Sass-Lint
 
 Include sass-lint by either adding a config file rule to your `.sass-lint.yml` file
 
@@ -45,7 +47,7 @@ or via `package.json`:
 }
 ```
 
-## Pug-lint
+### Pug-lint
 
 Include pug-lint rules by adding the following to your `.pug-lintrc` file:
 
