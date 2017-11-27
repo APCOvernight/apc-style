@@ -1,7 +1,6 @@
 # APC Code Style
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/APCOvernight/apc-style.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/APCOvernight/apc-style.svg?branch=master)](https://travis-ci.org/APCOvernight/apc-style)
+[![Build Status](https://travis-ci.org/APCOvernight/apc-style.svg?branch=master)](https://travis-ci.org/APCOvernight/apc-style) [![Greenkeeper badge](https://badges.greenkeeper.io/APCOvernight/apc-style.svg)](https://greenkeeper.io/)
 
 Code style rules and dependencies for APC js/scss/pug projects
 
