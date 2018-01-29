@@ -30,11 +30,11 @@
     "yarn": "^1.0.0"
   },
   "dependencies": {
-    "eslint-config-apc": "0.1.0",
+    "eslint-config-apc": "0.1.1",
     "pug-lint": "2.5.0",
     "sass-lint": "1.12.1"
   },
   "devDependencies": {
-    "apc-test": "^1.0.0"
+    "apc-test": "^1.0.1"
   }
 }
