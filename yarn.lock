@@ -783,9 +783,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-apc@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-apc/-/eslint-config-apc-0.1.1.tgz#f4eaff9b010786e863465abc114b6b8bcf132420"
+eslint-config-apc@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-apc/-/eslint-config-apc-1.0.0.tgz#ea75552def1862278180dad6a6b12b91968f7b40"
   dependencies:
     eslint "4.16.0"
     eslint-config-standard "10.2.1"
