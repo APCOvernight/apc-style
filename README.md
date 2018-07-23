@@ -15,7 +15,7 @@ Copy the .editorconfig file from this project to your project root
 ```
 cp node_modules/apc-style/.editorconfig .editorconfig
 ```
-
+This copying is now performed automatically with version 1.2
 ## Lint rules
 
 ### ES lint
@@ -27,6 +27,7 @@ Add this to your .eslintrc file:
   "extends": "apc"
 }
 ```
+This skeleton .eslintrc is automatically copyied with version 1.2
 
 Note: We omitted the eslint-config- prefix since it is automatically assumed by ESLint.
 
