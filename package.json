@@ -37,6 +37,9 @@
     "pug-lint": "2.5.0",
     "sass-lint": "1.12.1"
   },
+  "resolutions": {
+    "sass-lint/merge": "1.2.1"
+  },
   "devDependencies": {
     "apc-test": "1.1.0"
   }
