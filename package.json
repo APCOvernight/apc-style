@@ -35,7 +35,7 @@
     "gently-copy": "^2.3.1",
     "opn": "^5.3.0",
     "pug-lint": "2.5.0",
-    "sass-lint": "1.12.1"
+    "sass-lint": "1.13.1"
   },
   "resolutions": {
     "sass-lint/merge": "1.2.1"
