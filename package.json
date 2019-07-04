@@ -6,7 +6,9 @@
   "scripts": {
     "test": "yarn lint && mocha",
     "lint": "eslint test/*",
-    "postinstall": "node install.js"
+    "postinstall": "node install.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -35,12 +37,14 @@
     "gently-copy": "^2.3.1",
     "opn": "^5.3.0",
     "pug-lint": "2.5.0",
-    "sass-lint": "1.12.1"
+    "sass-lint": "1.12.1",
+    "snyk": "^1.189.0"
   },
   "resolutions": {
     "sass-lint/merge": "1.2.1"
   },
   "devDependencies": {
     "apc-test": "1.1.0"
-  }
+  },
+  "snyk": true
 }
